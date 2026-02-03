@@ -1,0 +1,59 @@
+{
+  "name": "koca",
+  "productName": "koca",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "kuvii",
+    "email": "kuvii@airmail.cc"
+  },
+  "license": "MIT",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "electron-winstaller"
+    ]
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.9.0",
+    "@electron-forge/maker-deb": "^7.9.0",
+    "@electron-forge/maker-rpm": "^7.9.0",
+    "@electron-forge/maker-squirrel": "^7.9.0",
+    "@electron-forge/maker-zip": "^7.9.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
+    "@electron-forge/plugin-fuses": "^7.9.0",
+    "@electron-forge/plugin-vite": "^7.9.0",
+    "@electron/fuses": "^1.8.0",
+    "@types/node": "^24.5.2",
+    "@unocss/postcss": "^66.5.1",
+    "@unocss/transformer-directives": "^66.5.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "electron": "38.1.0",
+    "sass-embedded": "^1.93.0",
+    "sass-loader": "^16.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "unocss": "^66.5.1",
+    "vite": "^5.0.12"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.9.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "expr-eval": "^2.0.2",
+    "ini": "^5.0.0",
+    "ini-simple-parser": "^1.0.1",
+    "mathjs": "^14.7.0",
+    "postcss": "^8.5.6",
+    "simple-ini": "^1.0.4",
+    "vue": "^3.5.21"
+  }
+}
